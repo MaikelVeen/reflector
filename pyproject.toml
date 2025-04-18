@@ -1,0 +1,19 @@
+[project]
+name = "reflector"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Maikel Veen", email = "veenmaikel@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.1.8",
+]
+
+[project.scripts]
+reflector = "reflector:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
